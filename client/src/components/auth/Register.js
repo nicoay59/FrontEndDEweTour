@@ -10,8 +10,7 @@ import { API } from '../../config/api';
 function Register({ show, handleRegClose }) {
 
 
-  const title = 'Register';
-  document.title = 'DumbMerch | ' + title;
+  document.title = 'Dewe Tour;
 
   const [message, setMessage] = useState(null);
   const [form, setForm] = useState({

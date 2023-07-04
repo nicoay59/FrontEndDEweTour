@@ -102,9 +102,8 @@ import { useNavigate } from 'react-router-dom';
 function Login(props) {
 
   let navigate = useNavigate();
-  
-  const title = 'Login';
-  document.title = 'Dumbmerch | ' + title;
+
+  document.title = 'Dumbmerch';
 
   const [_, dispatch] = useContext(UserContext);
 

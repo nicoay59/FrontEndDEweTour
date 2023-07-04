@@ -13,7 +13,7 @@ function FormaddTrip() {
 
 
   const title = 'Add trip';
-  document.title = 'DumbMerch |' + title;
+  document.title = 'Dewe Tour |' + title;
 
   let navigate = useNavigate();
 

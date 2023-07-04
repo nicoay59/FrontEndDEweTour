@@ -103,7 +103,7 @@ function Login(props) {
 
   let navigate = useNavigate();
 
-  document.title = 'Dumbmerch';
+  document.title = 'Dewe Tour';
 
   const [_, dispatch] = useContext(UserContext);
 

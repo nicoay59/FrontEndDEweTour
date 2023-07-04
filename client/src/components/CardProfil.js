@@ -15,7 +15,7 @@ import { API } from '../config/api';
 function CardProfil() {
 
     const title = 'Profile';
-    document.title = 'DumbMerch | ' + title;
+    document.title = 'DeweTour | ' + title;
   
     const [state, dispatch] = useContext(UserContext);
 
